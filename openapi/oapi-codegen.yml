@@ -1,0 +1,6 @@
+package: api
+generate:
+  - types         # 生成结构体
+  - gin           # 生成 Gin 接口
+  - spec          # 包含 openapi spec 本身（可用于 Swagger UI）
+output: api/gen.go

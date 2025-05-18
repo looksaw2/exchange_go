@@ -1,0 +1,2 @@
+./db/sqlc_gen/
+.envrc

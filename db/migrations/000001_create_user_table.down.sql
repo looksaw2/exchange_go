@@ -1,0 +1,3 @@
+ALTER TABLE users DROP CONSTRAINT IF EXISTS users_name_index;
+DROP TABLE IF EXISTS users;
+
